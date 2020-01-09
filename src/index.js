@@ -1,12 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-ReactDOM.render(<App />, document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
+import { Route, BrowserRouter as Router } from 'react-router-dom';
+
+//this page will be for all the routing for the site.
+//you need to import the page from where its nested before you can route it
+
+
+
+//import pages here
+import Home from './pages/Home';
+
+
+ReactDOM.render(
+    <Router>
+        <div>
+            <Route exact path="/" component={Home} />
+        </div>
+    </Router>
+    , document.getElementById('root'));
+
 serviceWorker.unregister();
