@@ -14,12 +14,14 @@ import { Route, BrowserRouter as Router } from 'react-router-dom';
 
 //import pages here
 import Home from './pages/Home';
+import SeeHTML from './pages/SeeHTML';
 
 
 ReactDOM.render(
     <Router>
         <div>
             <Route exact path="/" component={Home} />
+            <Route exact path="/SeeHTML" component={SeeHTML} />
         </div>
     </Router>
     , document.getElementById('root'));

@@ -21,7 +21,7 @@ const Example = (props) => {
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">see.JS </NavbarBrand>
+        <NavbarBrand href="/">visual.codr </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
@@ -50,7 +50,7 @@ const Example = (props) => {
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">Visual HTML</NavLink>
+              <NavLink href="/SeeHTML">Visual HTML</NavLink>
             </NavItem>
           </Nav>
 
