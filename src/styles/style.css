@@ -7,6 +7,10 @@
 .titleOne {
     margin-top: 20%;
 }
+.homeBlipOne {
+    font-family: 'Anonymous Pro', monospace;
+
+}
 
 
 
@@ -15,5 +19,6 @@
 .htmlCode {
     background: gray;
     height: 100%;
+    font-family: 'Anonymous Pro', monospace;
 }
 
