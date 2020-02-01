@@ -1,4 +1,10 @@
 
+/* Navbar Styles */
+
+.navStyle {
+    background: rgb(255,165,0);
+}
+
 /* Home Page Styles */
 
 .homeTitle {
@@ -17,8 +23,8 @@
 /* VISUAL HTML Styles */
 
 .htmlCode {
-    background: gray;
+    background: darkgray;
     height: 100%;
     font-family: 'Anonymous Pro', monospace;
+    color: white;
 }
-
