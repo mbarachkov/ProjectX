@@ -37,20 +37,24 @@ const Example = (props) => {
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
-                  <NavLink href="/">Bubble Sort</NavLink>
+                  <NavLink href="/BubbleSort">Bubble Sort</NavLink>
                 </DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>
-                  <NavLink href="/">Quick Sort</NavLink>
+                  <NavLink href="/QuickSort">Quick Sort</NavLink>
                 </DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>
-                  <NavLink href="/">GitHub</NavLink>
+                  <NavLink href="/LinearSearch">Linear Search</NavLink>
+                </DropdownItem>
+                <DropdownItem divider />
+                <DropdownItem>
+                  <NavLink href="/BinarySearch">Binary Search</NavLink>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink href="/SeeHTML">Visual HTML</NavLink>
+              <NavLink href="/VisualHTML">Visual HTML</NavLink>
             </NavItem>
           </Nav>
 

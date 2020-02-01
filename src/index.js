@@ -14,14 +14,22 @@ import { Route, BrowserRouter as Router } from 'react-router-dom';
 
 //import pages here
 import Home from './pages/Home';
-import SeeHTML from './pages/SeeHTML';
+import VisualHTML from './pages/VIsualHTML';
+import BubbleSort from './pages/BubbleSort';
+import QuickSort from './pages/QuickSort';
+import LinearSearch from './pages/LinearSearch';
+import BinarySearch from './pages/BinarySearch'
 
 
 ReactDOM.render(
     <Router>
         <div>
             <Route exact path="/" component={Home} />
-            <Route exact path="/SeeHTML" component={SeeHTML} />
+            <Route exact path="/VisualHTML" component={VisualHTML} />
+            <Route exact path="/BubbleSort" component={BubbleSort} />
+            <Route exact path="/QuickSort" component={QuickSort} />
+            <Route exact path="/LinearSearch" component={LinearSearch} />
+            <Route exact path="/BinarySearch" component={BinarySearch} />
         </div>
     </Router>
     , document.getElementById('root'));

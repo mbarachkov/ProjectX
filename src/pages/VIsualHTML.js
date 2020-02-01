@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../components/navBar/navBar';
 
-function SeeHTML() {
+function VisualHTML() {
     return (
         <div>
             <Navbar />
@@ -10,4 +10,4 @@ function SeeHTML() {
 }
 
 
-export default SeeHTML;
+export default VisualHTML;
